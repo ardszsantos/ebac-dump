@@ -2,8 +2,13 @@
   "name": "ebac-disney-plus",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "build": "gulp"
+  },
   "license": "MIT",
   "dependencies": {
-    "gulp-sass": "^6.0.0"
+    "gulp": "^5.0.0",
+    "gulp-sass": "^6.0.0",
+    "sass": "^1.84.0"
   }
 }
