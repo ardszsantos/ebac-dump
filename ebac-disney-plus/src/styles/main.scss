@@ -1,5 +1,11 @@
-$bgColor: teal;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$corDeFundo: #040714;
 
 body {
-    background-color: $bgColor;
+    background-color: $corDeFundo;
 }

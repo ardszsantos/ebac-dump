@@ -8,6 +8,7 @@
   "license": "MIT",
   "dependencies": {
     "gulp": "^5.0.0",
+    "gulp-imagemin": "7.1.0",
     "gulp-sass": "^6.0.0",
     "sass": "^1.84.0"
   }
