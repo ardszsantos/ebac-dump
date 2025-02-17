@@ -13,7 +13,7 @@ function styles() {
 
 
 function images() {
-    return gulp.src("./src/images/**/*")
+    return gulp.src("./src/images/**/*", {encoding: false})
         .pipe(imagemin([
             mozjpeg({ quality: 80 }), // Keep quality decent
             pngquant({ quality: [0.6, 0.8] }),
@@ -22,11 +22,9 @@ function images() {
         .pipe(gulp.dest("./dist/images"));
 }
 
+
 exports.default = gulp.parallel(styles, images);
 exports.watch = function() {
     gulp.watch("./src/styles/*.scss", gulp.parallel(styles));
 }
-
-
-
 
