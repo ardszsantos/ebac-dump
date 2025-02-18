@@ -1,3 +1,5 @@
+@use 'variavies';
+
 .hero {
     padding: 5.6vw;
     min-height: 80vh;
@@ -18,6 +20,29 @@
 
         p {
             margin-bottom: 20px;
+        }
+
+        &__combos {
+            display: flex;
+            justify-content: space-between;
+            background-color: rebeccapurple;
+            &__combo {
+                width: calc(50% - 12px);
+                    
+
+                img {
+                    max-height: 60px;
+                }
+
+                button {
+                    display: block;
+                    width: 100%;
+                    height: 60px;
+                    font-size: 68px;
+                    color: variaveis.$corTextoSecundario;
+                    background-color: #6421ff;
+                }
+            }
         }
 
     }
