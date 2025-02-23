@@ -22,8 +22,13 @@ function images() {
         .pipe(gulp.dest("./dist/images"));
 }
 
+function fonts() {
+    return gulp.src("./src/assets/fonts/**/*") // Path to your source fonts
+        .pipe(gulp.dest("./dist/assets/fonts")); // Output directory
+}
 
-exports.default = gulp.parallel(styles, images);
+
+exports.default = gulp.parallel(styles, images, fonts);
 exports.watch = function() {
     gulp.watch("./src/styles/*.scss", gulp.parallel(styles));
 }
