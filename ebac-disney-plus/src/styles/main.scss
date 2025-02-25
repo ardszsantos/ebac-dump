@@ -1,11 +1,13 @@
 @use 'hero';
 @use 'variaveis';
+@use 'shows';
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 
 /* Add format() and explicit font-style */
 @font-face {
     font-family: 'Avenir';
-    src: url('../assets/fonts/Avenir-Regular.woff2') format('woff2');
+    src: url('../assets/fonts/Avenir-Regular.woff2');
     font-weight: 400;
     font-style: normal;
     font-display: swap; /* Forces text to render sooner */
@@ -13,7 +15,7 @@
 
 @font-face {
     font-family: 'Avenir';
-    src: url('../assets/fonts/Avenir-Bold.woff2') format('woff2');
+    src: url('../assets/fonts/Avenir-Bold.woff2');
     font-weight: 700;
     font-style: normal;
     font-display: swap;
@@ -24,13 +26,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+    border: none;
 }
 
 
 
 body {
     background-color: variaveis.$corDeFundo;
-    font-family: Avenir, sans-serif;
+
 }
 
 @mixin text($fontSize: 16px) {
