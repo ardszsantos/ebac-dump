@@ -2,6 +2,7 @@
 @use 'variaveis';
 @use 'shows';
 @use 'plans';
+@use 'available_devices';
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200..1000;1,200..1000&display=swap');
 
@@ -111,14 +112,27 @@ body {
         h2 {
             margin-bottom: 24px;
         }
+    }
 
-        &--image--full-width {
-            display: block;
 
-            img {
-                
-                width: 100%;
-            }
+    &--image-full-width {
+        display: block;
+        position: relative;
+        
+
+        img {
+            width: 100%;
+        }
+    
+        &__text_container {
+            position: absolute;
+            top: 0;
+            height: 100%;
+            width: calc(50% - 5.6vw);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            left: 50%;
         }
     }
 }
