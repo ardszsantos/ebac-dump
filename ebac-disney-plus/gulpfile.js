@@ -7,7 +7,7 @@ const pngquant = require('imagemin-pngquant');
 
 function styles() {
     return gulp.src("./src/styles/*.scss")
-        .pipe(sass({ outputStyle: "compressed" }))
+        .pipe(sass({ outputStyle: "compressed" }).on("error", sass.logError))
         .pipe(gulp.dest("./dist/css"));
 }
 
