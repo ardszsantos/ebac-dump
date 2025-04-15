@@ -13,6 +13,7 @@
     "sass": "^1.84.0"
   },
   "devDependencies": {
+    "browser-sync": "^3.0.4",
     "gulp-cache": "1.1.3",
     "gulp-imagemin": "7.1.0",
     "imagemin-mozjpeg": "8.0.0",
