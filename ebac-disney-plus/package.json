@@ -16,6 +16,7 @@
     "browser-sync": "^3.0.4",
     "gulp-cache": "1.1.3",
     "gulp-imagemin": "7.1.0",
+    "gulp-uglify": "^3.0.2",
     "imagemin-mozjpeg": "8.0.0",
     "imagemin-pngquant": "9.0.2",
     "imagemin-svgo": "7.1.0"
