@@ -27,13 +27,21 @@
         padding: 8px 36px;
         display: flex;
         justify-content: space-between;
+
+        @media (max-width: 768px) {
+            padding: 0px 12px 0px 20px;
+
+        }
     }
 
     &__logo {
-        max-width: 80px;
+        width: 80px;
         width: 100%;
         margin: 5px;
         transition: opacity .5s ease;
+        @media (max-width: 768px) {
+            width: 64px;
+        }
     }
     &__links {
         display: flex;
@@ -45,6 +53,13 @@
     
     .button {
         height: 50px;
+
+        @media (max-width: 768px) {
+            font-size: 13px;
+            padding: 8px 11px;
+            height: 40px;
+            letter-spacing: 0;
+        }
     }
     
 }
