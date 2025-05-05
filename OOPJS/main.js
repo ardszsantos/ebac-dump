@@ -14,3 +14,6 @@ function Carro(modelo, fabricante, anoModelo, anoFabricacao) {
 
 const carroDoJot = new Carro("fiesta", "ford", 2020, 2019);
 const carroDoG = new Carro("Ka", "Ford", 2021, 2020);
+
+console.log(carroDoG)
+console.log(carroDoJot)
