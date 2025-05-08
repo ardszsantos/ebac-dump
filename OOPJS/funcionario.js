@@ -10,11 +10,8 @@ function Pessoa(nome) {
 
 }
 
-function retornaPessoa(x) {
-    return `${Pessoa}`
-}
 
-console.log(retornaPessoa(Pessoa));
+
 
 function Funcionario(nome, cargo, salario) {
     this.nome = nome;
