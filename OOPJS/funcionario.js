@@ -10,13 +10,18 @@ function Pessoa(nome) {
 
 }
 
+function retornaPessoa(x) {
+    return `${Pessoa}`
+}
+
+console.log(retornaPessoa(Pessoa));
 
 function Funcionario(nome, cargo, salario) {
     this.nome = nome;
     this.cargo = cargo;
     let _salario = salario;
     this.getSalario = function () {
-        return _salario;
+        return `O salário da ${nome} é ${_salario}`;
     }
 
     this.setSalario = function (valor) {
@@ -33,4 +38,4 @@ funcionario1.setSalario(805555000)
 
 
 
-console.log(funcionario1.retornaSalario())
+console.log(funcionario1.getSalario())
