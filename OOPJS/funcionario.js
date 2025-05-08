@@ -14,12 +14,14 @@ function Pessoa(nome) {
 function Funcionario(nome, cargo, salario) {
     this.nome = nome;
     this.cargo = cargo;
-    this.salario = salario;
-
+    let _salario = salario;
+    this.retornaSalario = function () {
+        return _salario;
+    }
     Pessoa.call(this, nome);
 }
 
 const funcionario1 = new Funcionario("Maria", "dev", 5000);
-funcionario1.dizOi();
-funcionario1.dizCargo();
 
+
+console.log(funcionario1.retornaSalario())
