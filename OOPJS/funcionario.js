@@ -48,15 +48,5 @@ const funcionario1 = new Funcionario("Maria", "dev", 5000);
 const funcionario2 = new Estagiario("Pedro");
 
 
-funcionario1.aumento()
-funcionario2.aumento()
-
-console.log(funcionario2.getSalario())
-console.log(funcionario1.getSalario())
-
-
-
-
-
-
-
+let teste = [1, 1, 1]
+console.log(typeof(new Error()))
