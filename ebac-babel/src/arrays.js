@@ -10,8 +10,6 @@ redesSociais.forEach(function (redeSNome, i) {
 const alunos = ['Gustavo', 'Julia', 'Paula', 'Vagner']
 
 const alunos2 = alunos.map(function(itemAtual) {
-
-
     return {
         nome: itemAtual,
         curso: 'Frontend',
