@@ -29,3 +29,7 @@ const dobroDosNumeros = numeros.map(function(numeroAtual) {
 
 
 console.log(dobroDosNumeros)
+
+const paula = alunos2.find(function(item) {
+    return item.nome == 'Paula';
+})
