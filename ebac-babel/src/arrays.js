@@ -30,6 +30,10 @@ const dobroDosNumeros = numeros.map(function(numeroAtual) {
 
 console.log(dobroDosNumeros)
 
-const paula = alunos2.find(function(item) {
+const indiceDaPaula = alunos2.findIndex(function(item) {
     return item.nome == 'Paula';
+})
+
+const todosASF =  alunos2.every(function(item) {
+
 })
