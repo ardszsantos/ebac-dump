@@ -17,3 +17,10 @@ var dobroDosNumeros = numeros.map(function (numeroAtual) {
   return numeroAtual * 2;
 });
 console.log(dobroDosNumeros);
+var indiceDaPaula = alunos2.findIndex(function (item) {
+  return item.nome == 'Paula';
+});
+var filtraAlunosDeBackend2 = function filtraAlunosDeBackend2(alunos) {
+  return alunos.curso === 'Backend';
+};
+var todosASF = alunos2.every(function (item) {});

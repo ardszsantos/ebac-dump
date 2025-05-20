@@ -34,6 +34,10 @@ const indiceDaPaula = alunos2.findIndex(function(item) {
     return item.nome == 'Paula';
 })
 
+
+const filtraAlunosDeBackend2 = alunos => alunos.curso === 'Backend';
+
+
 const todosASF =  alunos2.every(function(item) {
 
 })
