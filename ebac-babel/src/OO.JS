@@ -16,6 +16,14 @@ class Pokemon {
 }
 
 
+class Pikachu extends Pokemon {
+    constructor () {
+        super('Pikachu', 'eletrico')
+    }
+}
+
+//const chip = new Pikachu('Kok', 'tip')
+const chip = new Pikachu
+
 const pikachu = new Pokemon('pikach', 'eletric')
-
-
+pikachu.atacar("TOp")
