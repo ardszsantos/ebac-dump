@@ -1,9 +1,3 @@
-function Pokemon(nome, tipo) {
-    this.nome = nome;
-    this.tipo = tipo;
-}
-
-const pikoachu = new Pokemon('pikachu', 'eletrico')
 
 
 class Pokemon {
@@ -23,4 +17,5 @@ class Pokemon {
 
 
 const pikachu = new Pokemon('pikach', 'eletric')
+
 
