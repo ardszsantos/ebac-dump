@@ -7,4 +7,5 @@ var casting;
     idade.forEach(x => {
         console.log(x);
     });
+    let nome = 35;
 })(casting || (casting = {}));
